@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menusuperior{
+    background-color: #303030;
+}
+
+#titulomenusuperior{
+    color: #ffffff;
+    margin-left: 55px;
+    padding-top: 180px;
+    font-size: 49px;
+    
+    
+}
+
+#subtitulomenusuperior{
+    color: #ffffff;
+    margin-left: 56px;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-bottom: 130px;
+}
+
+#menuinformacional{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-left: 140px;
+    padding-bottom: 60px;
+    text-align: justify;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 39px;
+    text-align: justify;
+}
+
+#secaofoto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 70px;
+    padding-right: 0px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+#imagemapartamento{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 535px;
+    width: 440px
+    
+}
+
+.bolder{
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+}
+
+#textofoto{
+    padding-left: 0px;
+    padding-top: 170px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+#tituloformulario{
+    font-size: 27px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.input{
+    background-color: #ffffff;
+    width: 425px;
+    height: 60px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+button{
+    background-color: #C07212;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    height: 70px;
+    width: 255px
+}
+
+button:hover{
+    background-color: #d58829;
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 15px #2d2d2d;
+    transition-duration: 0,5s;
+}
